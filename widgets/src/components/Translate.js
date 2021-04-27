@@ -15,6 +15,14 @@ const Translate = () => {
 
   return (
     <div>
+      <p style={{ color: 'red' }}>
+        Error:
+        <br />
+        The API Key is not allowed for public viewing, and several errors will
+        be logged.
+        <br />
+        To view this widget properly, please run this application locally.
+      </p>
       <div className="ui form">
         <div className="field">
           <label>Enter Text</label>
